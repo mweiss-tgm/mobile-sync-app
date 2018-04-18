@@ -10,9 +10,9 @@ import android.widget.CheckBox
 import android.widget.ImageButton
 import android.widget.TextView
 
-class ShopListAdapter(context: Context, toDoItemList: MutableList<ShopItem>) : BaseAdapter() {
+class ShopListAdapter(context: Context, shopItemList: MutableList<ShopItem>) : BaseAdapter() {
     private val mInflater: LayoutInflater = LayoutInflater.from(context)
-    private var itemList = toDoItemList
+    private var itemList = shopItemList
     private var rowListener: ItemRowListener = context as ItemRowListener
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {

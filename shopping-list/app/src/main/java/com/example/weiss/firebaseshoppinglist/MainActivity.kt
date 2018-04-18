@@ -84,16 +84,16 @@ class MainActivity : AppCompatActivity(), ItemRowListener {
         alert.setTitle("Enter To Do Item Text")
         alert.setView(itemEditText)
         alert.setPositiveButton("Submit") { dialog, positiveButton ->
-            val todoItem = ShopItem.create()
-            todoItem.itemText = itemEditText.text.toString()
-            todoItem.done = false
+            val shopItem = ShopItem.create()
+            shopItem.itemText = itemEditText.text.toString()
+            shopItem.done = false
             //We first make a push so that a new item is made with a unique ID
             val newItem = mDatabase.child(Constants.FIREBASE_ITEM).push()
-            todoItem.objectId = newItem.key
+            shopItem.objectId = newItem.key
             //then, we used the reference to set the value on that ID
-            newItem.setValue(todoItem)
+            newItem.setValue(shopItem)
             dialog.dismiss()
-            Toast.makeText(this, "Item saved with ID " + todoItem.objectId, Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Item saved with ID " + shopItem.objectId, Toast.LENGTH_SHORT).show()
         }
         alert.show()
     }
@@ -114,21 +114,21 @@ class MainActivity : AppCompatActivity(), ItemRowListener {
         shopList!!.clear();
         //Check if current database contains any collection
         if (items.hasNext()) {
-            val toDoListindex = items.next()
-            val itemsIterator = toDoListindex.children.iterator()
+            val shopListindex = items.next()
+            val itemsIterator = shopListindex.children.iterator()
 
             //check if the collection has any to do items or not
             while (itemsIterator.hasNext()) {
                 //get current item
                 val currentItem = itemsIterator.next()
-                val todoItem = ShopItem.create()
+                val shopItem = ShopItem.create()
                 //get current data in a map
                 val map = currentItem.getValue() as HashMap<String, Any>
                 //key will return Firebase ID
-                todoItem.objectId = currentItem.key
-                todoItem.done = map.get("done") as Boolean?
-                todoItem.itemText = map.get("itemText") as String?
-                shopList!!.add(todoItem);
+                shopItem.objectId = currentItem.key
+                shopItem.done = map.get("done") as Boolean?
+                shopItem.itemText = map.get("itemText") as String?
+                shopList!!.add(shopItem);
             }
         }
         //alert adapter that has changed
