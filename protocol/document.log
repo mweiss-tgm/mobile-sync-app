@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.28)  17 APR 2018 20:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.28)  18 APR 2018 10:59
 entering extended mode
 **./document.tex
 (document.tex
@@ -1021,7 +1021,7 @@ LaTeX Info: Redefining \nameref on input line 53.
 \openout4 = `document.out'.
 
  (special/title.tex
-<images/jdIT_tgm.png, id=31, 748.7975pt x 640.3925pt>
+<images/jdIT_tgm.png, id=83, 748.7975pt x 640.3925pt>
 File: images/jdIT_tgm.png Graphic file (type png)
 <use images/jdIT_tgm.png>
 Package pdftex.def Info: images/jdIT_tgm.png  used on input line 7. on input li
@@ -1127,10 +1127,171 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 5.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 5.
+(babel)             in language  on input line 7.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 5.
+(babel)             in language  on input line 7.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 11.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 11.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 14.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 14.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 17.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 17.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 21.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 21.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 25.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 25.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 28.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 28.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 28.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 28.
  [3
+
+]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 30.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 30.
+<images/proj-erst.png, id=157, 679.03688pt x 513.41812pt>
+File: images/proj-erst.png Graphic file (type png)
+<use images/proj-erst.png>
+Package pdftex.def Info: images/proj-erst.png  used on input line 35. on input 
+line 35.
+Package pdftex.def Info: Requested size: 300.29344pt x 227.04845pt on input lin
+e 35.
+<images/firebase-supp.png, id=158, 133.24782pt x 206.27063pt>
+File: images/firebase-supp.png Graphic file (type png)
+<use images/firebase-supp.png>
+Package pdftex.def Info: images/firebase-supp.png  used on input line 44. on in
+put line 44.
+Package pdftex.def Info: Requested size: 100.09526pt x 154.95438pt on input lin
+e 44.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 49.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 49.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 49.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 49.
+
+[4
+
+ <./images/proj-erst.png> <./images/firebase-supp.png>]
+<images/firebase-ass.png, id=167, 335.75438pt x 468.24937pt>
+File: images/firebase-ass.png Graphic file (type png)
+<use images/firebase-ass.png>
+Package pdftex.def Info: images/firebase-ass.png  used on input line 55. on inp
+ut line 55.
+Package pdftex.def Info: Requested size: 250.24199pt x 348.99268pt on input lin
+e 55.
+<images/database.jpg, id=168, 527.9725pt x 188.705pt>
+File: images/database.jpg Graphic file (type jpg)
+<use images/database.jpg>
+Package pdftex.def Info: images/database.jpg  used on input line 64. on input l
+ine 64.
+Package pdftex.def Info: Requested size: 300.29344pt x 107.32684pt on input lin
+e 64.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 69.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 69.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 69.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 69.
+ [5
+
+ <./images/firebase-ass.png> <./images/database.jpg>]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 100.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 100.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 100.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 100.
+ [6
+
+]
+<images/app-design.png, id=196, 345.54094pt x 617.30624pt>
+File: images/app-design.png Graphic file (type png)
+<use images/app-design.png>
+Package pdftex.def Info: images/app-design.png  used on input line 106. on inpu
+t line 106.
+Package pdftex.def Info: Requested size: 200.19054pt x 357.64226pt on input lin
+e 106.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 111.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 111.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 121.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 132.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 132.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 132.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 132.
+ [7
+
+ <./images/app-design.png>]
+<images/database-entry.png, id=220, 260.47313pt x 218.31563pt>
+File: images/database-entry.png Graphic file (type png)
+<use images/database-entry.png>
+Package pdftex.def Info: images/database-entry.png  used on input line 139. on 
+input line 139.
+Package pdftex.def Info: Requested size: 250.24199pt x 209.7405pt on input line
+ 139.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 144.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 144.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 170.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 170.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 170.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 170.
+ [8 <./images/database-entry.png>]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 172.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 172.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 182.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 182.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 192.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 192.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 207.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 207.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 207.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 207.
+ [9
 
 ])
 No file document.bbl.
@@ -1151,7 +1312,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 80.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 80.
- [4
+ [10
 
 
 ]
@@ -1160,28 +1321,31 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 80.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 80.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 80.
 Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: 26E3E1C9B2C9509B1521216BE14717DC;377.
+(rerunfilecheck)             Checksum: 7F9E43108E756C675B0A5B2B82D7A991;1346.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 80.
  ) 
 Here is how much of TeX's memory you used:
- 11754 strings out of 493312
- 167200 string characters out of 3146702
- 277821 words of memory out of 3000000
- 15052 multiletter control sequences out of 15000+200000
- 12805 words of font info for 35 fonts, out of 3000000 for 9000
+ 12159 strings out of 493312
+ 171503 string characters out of 3146702
+ 338834 words of memory out of 3000000
+ 15353 multiletter control sequences out of 15000+200000
+ 14549 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,11n,67p,456b,498s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,12n,77p,467b,1852s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\weiss\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
-tcrm1095.pk> <C:\Users\weiss\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
-ec\dpi600\ecbx1200.pk> <C:\Users\weiss\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
-\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\weiss\AppData\Local\MiKTeX\2.9\fonts
-\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Users\weiss\AppData\Local\MiKTeX
-\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\weiss\AppData\Lo
-cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk><D:/MikTex/fonts/
-type1/public/ccicons/ccicons.pfb>
-Output written on document.pdf (6 pages, 131422 bytes).
+ecrm0800.pk> <C:\Users\weiss\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
+ec\dpi600\ecrm0600.pk> <C:\Users\weiss\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
+\jknappen\ec\dpi600\tcrm1095.pk> <C:\Users\weiss\AppData\Local\MiKTeX\2.9\fonts
+\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\weiss\AppData\Local\MiKTeX
+\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\weiss\AppData\Lo
+cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Users\weiss\
+AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Us
+ers\weiss\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.
+pk><D:/MikTex/fonts/type1/public/ccicons/ccicons.pfb><D:/MikTex/fonts/type1/pub
+lic/amsfonts/cm/cmsy8.pfb>
+Output written on document.pdf (12 pages, 1165193 bytes).
 PDF statistics:
- 300 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
- 62 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 657 PDF objects out of 1000 (max. 8388607)
+ 112 named destinations out of 1000 (max. 500000)
+ 196 words of extra memory for PDF output out of 10000 (max. 10000000)
 
