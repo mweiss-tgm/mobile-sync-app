@@ -4,9 +4,9 @@ object Constants {
     @JvmStatic val FIREBASE_ITEM: String = "shop_item"
 }
 
-class ToDoItem {
+class ShopItem {
     companion object Factory {
-        fun create(): ToDoItem = ToDoItem()
+        fun create(): ShopItem = ShopItem()
     }
     var objectId: String? = null
     var itemText: String? = null

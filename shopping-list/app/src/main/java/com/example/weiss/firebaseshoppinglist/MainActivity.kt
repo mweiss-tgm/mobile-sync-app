@@ -17,7 +17,7 @@ import com.google.firebase.database.*
 import kotlinx.android.synthetic.main.activity_main.*
 
 lateinit var mDatabase: DatabaseReference
-var shopList: MutableList<ToDoItem>? = null
+var shopList: MutableList<ShopItem>? = null
 lateinit var adapter: ShopListAdapter
 private var listViewItems: ListView? = null
 
@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity(), ItemRowListener {
 
         mDatabase = FirebaseDatabase.getInstance().reference
         mDatabase.orderByKey().addValueEventListener(itemListener)
-        shopList = mutableListOf<ToDoItem>()
+        shopList = mutableListOf<ShopItem>()
         adapter = ShopListAdapter(this, shopList!!)
         listViewItems!!.setAdapter(adapter)
     }
@@ -84,7 +84,7 @@ class MainActivity : AppCompatActivity(), ItemRowListener {
         alert.setTitle("Enter To Do Item Text")
         alert.setView(itemEditText)
         alert.setPositiveButton("Submit") { dialog, positiveButton ->
-            val todoItem = ToDoItem.create()
+            val todoItem = ShopItem.create()
             todoItem.itemText = itemEditText.text.toString()
             todoItem.done = false
             //We first make a push so that a new item is made with a unique ID
@@ -121,7 +121,7 @@ class MainActivity : AppCompatActivity(), ItemRowListener {
             while (itemsIterator.hasNext()) {
                 //get current item
                 val currentItem = itemsIterator.next()
-                val todoItem = ToDoItem.create()
+                val todoItem = ShopItem.create()
                 //get current data in a map
                 val map = currentItem.getValue() as HashMap<String, Any>
                 //key will return Firebase ID
